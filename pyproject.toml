@@ -4,11 +4,19 @@ version = "0.0.1"
 description = "A modular SDK for building AI-powered bioinformatics tools and research pipelines."
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
-authors = [{name = "Jan Piotrzkowski", email = "piotrzkowski.jan@gmail.com"}]
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Jan Piotrzkowski", email = "piotrzkowski.jan@gmail.com"}
+]
 classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
     "Operating System :: OS Independent"
 ]
 
